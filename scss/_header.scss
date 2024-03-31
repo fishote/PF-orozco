@@ -1,0 +1,40 @@
+header {
+    border-bottom: 10px solid rgb(247, 241, 241);
+    text-align: center;
+    padding: 5% 20px;
+    height: 80px;
+    width: 100%;
+    background-color: $color-azul;
+}
+
+.logo {
+    width: 130px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $color_blanco
+}
+
+h1 {
+    color: rgb(28, 129, 218);
+}
+
+h2 {
+    color: #fff;
+}
+
+.container {
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320;
+    margin: auto;
+}
